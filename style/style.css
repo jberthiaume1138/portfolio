@@ -1,0 +1,10 @@
+.background {
+	background-image: url('../images/volcano.jpg');
+	background-repeat: none;
+	background-size: cover;
+	background-position: 0 top;
+}
+
+.navigation li {
+	display: inline-block;
+}
