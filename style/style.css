@@ -1,6 +1,4 @@
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;	/*still needed?*/
-  -moz-box-sizing: border-box;		/*still needed?*/
   box-sizing: border-box;
 }
 
@@ -32,7 +30,7 @@
   display: table;
   clear: both;
 }
-/*							need explantion of this syntax
+
 [class*='col-'] {
   padding-right: 20px;
 }
