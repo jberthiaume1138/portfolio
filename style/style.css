@@ -77,8 +77,17 @@ header a:hover {
   margin: 0;
 }
 
+#about {
+  display: none;
+}
 
+#projects {
+  display: none;
+}
 
+#contact {
+  display: none;
+}
 
 
 
