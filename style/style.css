@@ -50,6 +50,7 @@ section {
   background-color: blue;
   padding-left: 1em;
   font-family: 'Oswald', sans-serif;
+  margin-bottom: 1em;
 }
 
 #main {
@@ -95,11 +96,20 @@ section {
 }
 
 #about {
-  text-align: center;
+  margin-top: 1em;
+}
+
+#about .wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1em;
+  font-size: 1em;
 }
 
 #about p {
-  padding: 0 5em;
+  padding-left: 1em;
 }
 
 #projects {
