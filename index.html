@@ -3,42 +3,77 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Portfolio</title>
+	<title>Joseph Berthiaume - Web Development</title>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style/normalize.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-	<nav class="navigation">
-		<p>Joe</p>
-		<ul>
-			<li>About</li>
-			<li>Projects</li>
-			<li>Blog</li>
-			<li>Contact</li>
-			<li>SocialMediaIcons</li>
-		</ul>
-	</nav>
-	<section class="tagline">
-		<h1>Engineering meets design</h1>
-	</section>
-	<section class="main-content">
-		<div class="grid">  
-			<div class="col-2-3">
-				<div class="inner">
-					<p>Main Stuff</p>
-				</div>
-			</div>
-			<div class="col-1-3">
-				<div class="inner">
-					<p>Other things</p>
-				</div>
-			</div>
+	<header>
+		<h1>JB</h1>
+		<div><a id="linkAbout" href="">About</a></div>
+		<div><a id="linkProjects" href="">Projects</a></div>
+		<div><a id="linkContact" href="">Contact</a></div>
+	</header>
+	
+	<section id="main">
+		<div id="content">
+			<h2>Joseph Berthiaume</h2>
+			<h3>Engineering For The Modern Web</h3>
+			<h4>HTML5 CSS3 Javascript jQuery AJAX</h4>
 		</div>
 	</section>
+	<section id="about">
+		<div class="wrapper">
+			<img src="images/tulips.jpg" height="200px" width="200px" alt="Penny the Golden Retriever">
+			<p>Joseph Berthiaume has been working in the IT field for over 16 years. Holding a degree in electrical engineering, he has extensive experience in all levels of system administration and network engineering.</p>
+			<p>Bulding on that experience, along with many hours spent working with MS SQL, his focus is fimrly in modern software engineering for the web. His focus is currently in front end development with HTML5, CSS3, jQuery, Javascript and AJAX technologies with plans to expand into the full stack in the immediate future.</p>
+			<p>Joseph lives in NYC with his beautiful wife, new baby boy, dozens of fish and corals, and his loyal coding assistant Penny the Golden Retriever.</p>
+			<p>Contact Joseph today to inquire about hiring him for a job, big or small.</p>
+		</div>
+	</section>
+
+	<section id="projects">
+		<div class="wrapper">
+			<h2>Shopping List</h2>
+			<p>screenshot picture link</p>
+			<p>link to github code</p>
+			<a href="http://jberthiaume1138.github.io/shopping-list"><img src="">App</a>
+			<p>A Javascript app to help you track items for a shopping trip</p>
+			<p>Tags: HTML5 CSS3 Javascript Git</p>
+		</div>
+		<div class="wrapper">
+			<h2>Hot or Cold</h2>
+			<p>screenshot picture link</p>
+			<p>A number guessing game, written in Javascript</p>
+			<p>Tags: HTML5 CSS3 Javascript Git</p>
+		</div>
+		<div class="wrapper">
+			<h2>Comic Book Quiz</h2>
+			<p>screenshot picture link</p>
+			<p>Test your comic book knowledge with this Javascript triva quiz</p>
+			<p>Tags: HTML5 CSS3 Javascript Git</p>
+		</div>
+		<div class="wrapper">Others...</div>
+	</section>
+
+	<section id="contact">
+		<div class="wrapper">
+			<p>How to contact me</p>
+			<p><a href="https://github.com/jberthiaume1138">Github</a></p>
+			<p><a href="https://www.linkedin.com/in/joe-berthiaume-42b2924">LinkedIn</a></p>
+			<p>email</p>
+		</div>
+	</section>
+
 	<footer>
-		<p>Repeat NavBar different format</p>
-		<p>Social Media Buttons</p>
+		<p>About Projects Contact</p>
+		<p><a href="https://github.com/jberthiaume1138">GitHub</a><a href="https://www.linkedin.com/in/joe-berthiaume-42b2924">LinkedIn</a></p>
+		<p>Copyright 2016 Joseph Berthiaume</p>
 	</footer>
-	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>
