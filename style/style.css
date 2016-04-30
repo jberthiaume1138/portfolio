@@ -17,6 +17,9 @@ header {
   align-items: baseline;
   justify-content: right;
   margin-bottom: 1em;
+  /*position: fixed;
+  left: 0;
+  top: 0;*/
 }
 
 header h1 {
