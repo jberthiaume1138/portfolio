@@ -142,7 +142,7 @@ section a:hover {
 #projects .wrapper {
   display: flex;
   flex-flow: row;
-  align-items: top;
+  align-items: center;
   justify-content: flex-start;
   padding: 1em;
   font-size: 1em;
@@ -150,6 +150,14 @@ section a:hover {
 
 .project-description {
   padding: 1em;
+}
+
+.project-description h2 {
+  width: 100%;
+}
+
+.project-description p {
+  width: 100%;
 }
 
 
