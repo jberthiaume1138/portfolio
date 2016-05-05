@@ -1,3 +1,10 @@
+// ----- TODO:
+// fix nav bar lock to top
+// get and optimize pictures for projects
+// git and linkedIN images
+// effect - name move from center to top on scroll
+// link to PDF paper resume
+
 'use strict'
 
 $(document).ready(function() {
