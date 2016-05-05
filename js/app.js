@@ -4,6 +4,8 @@
 // git and linkedIN images
 // effect - name move from center to top on scroll
 // link to PDF paper resume
+// put project descriptions in an external JSON file and 
+// use templates and jQuery clone to build the HTML
 
 'use strict'
 

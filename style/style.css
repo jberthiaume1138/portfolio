@@ -31,7 +31,7 @@ header h1 {
 }
 
 header div {
-  border-bottom: 10px solid blue;
+  border-bottom: 10px solid #2F479D;
 }
 
 header a {
@@ -50,7 +50,7 @@ header a:hover {
 
 /* ------------------------ main landing page ----------------------------- */
 section {
-  background-color: blue;
+  background-color: #2F479D;
   padding-left: 1em;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 1em;
@@ -146,6 +146,10 @@ section a:hover {
   justify-content: flex-start;
   padding: 1em;
   font-size: 1em;
+}
+
+.project-description {
+  padding: 1em;
 }
 
 
