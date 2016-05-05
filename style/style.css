@@ -122,6 +122,17 @@ section {
 
 /* ------------------------- Contact ---------------------- */
 
+.back-to-top {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+
+}
+
+.back-to-top:hover {
+  color: #00008B;
+}
+
 
 /* -------------------------- footer -----------------------*/
 

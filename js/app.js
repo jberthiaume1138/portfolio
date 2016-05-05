@@ -2,8 +2,6 @@
 
 $(document).ready(function() {
 
-	
-
 });
 
 //smooth scroll
