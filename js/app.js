@@ -1,13 +1,41 @@
+// ----- TODO:
+// fix nav bar lock to top
+// get and optimize pictures for projects
+// git and linkedIN images
+// effect - name move from center to top on scroll
+// link to PDF paper resume
+
 'use strict'
 
 $(document).ready(function() {
 
-	
-
 });
 
-document.getElementById('linkProjects').addEventListener('click', function() {
-	var divPosition = $('#projects').offset();
-
-	$('html, body').animate({scrollTop: divPosition.top}, "slow");
+//smooth scroll
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
 });
+
+// // smooth scroll with cache
+// var $root = $('html, body');
+// $('a').click(function() {
+//     $root.animate({
+//         scrollTop: $( $.attr(this, 'href') ).offset().top
+//     }, 500);
+//     return false;
+// });
+
+// smooth scroll and updates the URL
+// var $root = $('html, body');
+// $('a').click(function() {
+//     var href = $.attr(this, 'href');
+//     $root.animate({
+//         scrollTop: $(href).offset().top
+//     }, 500, function () {
+//         window.location.hash = href;
+//     });
+//     return false;
+// });

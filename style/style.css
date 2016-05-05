@@ -17,6 +17,9 @@ header {
   align-items: baseline;
   justify-content: right;
   margin-bottom: 1em;
+  /*position: fixed;
+  left: 0;
+  top: 0;*/
 }
 
 header h1 {
@@ -50,6 +53,15 @@ section {
   background-color: blue;
   padding-left: 1em;
   font-family: 'Oswald', sans-serif;
+  margin-bottom: 1em;
+}
+
+section a {
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #00008B;
 }
 
 #main {
@@ -87,19 +99,27 @@ section {
   margin: 0;
 }
 
-#main h4 {
+#main div p {
   font-size: 2em;
-  color: gray;
-  padding: 0;
-  margin: 0;
 }
 
+
+
 #about {
-  text-align: center;
+  margin-top: 1em;
+}
+
+#about .wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: top;
+  justify-content: flex-start;
+  padding: 1em;
+  font-size: 1em;
 }
 
 #about p {
-  padding: 0 5em;
+  padding-left: 1em;
 }
 
 #projects {
@@ -108,10 +128,36 @@ section {
 #contact {
 }
 
+#contact div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact h2 {
+  width: 100%;
+  text-align: center;
+}
+
 /* ------------------------- Contact ---------------------- */
+
+.back-to-top {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+
+}
+
+.back-to-top:hover {
+  color: #00008B;
+}
 
 
 /* -------------------------- footer -----------------------*/
+footer {
+  
+}
 
 footer p {
   font-size: 0.75em;
