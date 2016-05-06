@@ -127,18 +127,6 @@ section a:hover {
 #projects {
 }
 
-#projects h2 {
-  width: 100%;
-  text-align: center;
-}
-
-#projects h3 {
-  width: 100%;
-  text-align: center;
-  font-weight: 400;
-  font-size: 1em;
-}
-
 #projects .wrapper {
   display: flex;
   flex-flow: row;
@@ -148,22 +136,46 @@ section a:hover {
   font-size: 1em;
 }
 
+#projects .header {
+  flex-flow: row wrap;
+}
+
+#projects h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+#projects h3 {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
 .project-description {
   padding: 1em;
 }
 
 .project-description h2 {
   width: 100%;
+  /*margin: 0 auto;*/
 }
 
 .project-description p {
   width: 100%;
+  /*margin: 0 auto;*/
 }
 
 
 /* ------------------------- Contact ---------------------- */
 
 #contact {
+
 }
 
 #contact div {

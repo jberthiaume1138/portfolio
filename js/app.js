@@ -1,7 +1,6 @@
 // ----- TODO:
 // fix nav bar lock to top
-// get and optimize pictures for projects
-// git and linkedIN images
+// git and linkedIN icons
 // effect - name move from center to top on scroll
 // link to PDF paper resume
 // put project descriptions in an external JSON file and 
