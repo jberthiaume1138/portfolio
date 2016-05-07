@@ -65,6 +65,7 @@ section a:hover {
 }
 
 #main {
+  background-color: #2F479D;
   font-family: 'Amatic SC';
   text-align: center;
   vertical-align: middle;
@@ -106,6 +107,7 @@ section a:hover {
 /* ----------------------- About ---------------------- */
 
 #about {
+  background-color: #2F479D;
   margin-top: 1em;
 }
 
