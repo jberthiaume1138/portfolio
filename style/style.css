@@ -63,8 +63,8 @@ header a:hover {
 section {
   font-family: 'Oswald', sans-serif;
 
-  border: 1em solid #2F479D;
-  border-top: none;;
+ /* border: 1em solid #1A2061;
+  border-top: none;;*/
   /*border-right: 1em solid #2F479D;
   border-bottom: 1em solid #2F479D;
   border-left: 1em solid #2F479D;
@@ -92,6 +92,10 @@ section a:hover {
   background-color: white;
   padding: 10em 0;
   margin: 0;
+  background-image: url("../images/gridfinal.gif");
+  background-size: cover;
+  background-repeat: none;
+  /*background-position: center;*/
 }
   
 .wrapper {                  
@@ -99,11 +103,13 @@ section a:hover {
 }
 
 #main h1 {
+  font-family: 'Amatic SC', sans-serif;
   font-size: 5em;
   margin: 0;
 }
 
 #main h3 {
+  font-family: 'Amatic SC', sans-serif;
   font-size: 3em;
   padding: 0;
   margin: 0;
@@ -117,6 +123,7 @@ section a:hover {
 
 #about {
   margin-top: 1em;
+
 }
 
 #about .wrapper {
@@ -126,12 +133,24 @@ section a:hover {
   align-items: center;
   padding: 1em;
   font-size: 1em;
+  background-color: #1A2061;
 }
 
 @media all and (max-width: 800px) {
   #about .wrapper {
     flex-flow: column;
   }
+}
+
+#about h2 {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 /*#about img {
@@ -144,6 +163,7 @@ section a:hover {
 
 #about p {
   padding: 0 1em;
+  color: white;
 }
 
 /* ----------------------- Projects ---------------------- */
@@ -166,6 +186,7 @@ section a:hover {
   justify-content: flex-start;
   padding: 1em;
   font-size: 1em;
+  /*font-family: 'Amatic SC', sans-serif;*/
 }
 
 @media all and (max-width: 800px) {
@@ -177,6 +198,7 @@ section a:hover {
 #projects h2 {
   width: 100%;
   text-align: center;
+  font-family: 'Amatic SC', sans-serif;
   font-size: 2em;
   margin: 0 auto;
   padding: 0;
@@ -186,6 +208,7 @@ section a:hover {
   width: 100%;
   text-align: center;
   font-weight: 400;
+  font-family: 'Amatic SC', sans-serif;
   font-size: 1em;
   margin: 0 auto;
   padding: 0;
@@ -217,11 +240,14 @@ section a:hover {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+   background-color: #1A2061;
 }
 
 #contact h2 {
   width: 100%;
   text-align: center;
+  color: white;
+  font-family: 'Amatic SC', sans-serif;
 }
 
 
