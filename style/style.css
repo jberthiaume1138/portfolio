@@ -84,11 +84,6 @@ section a:hover {
 
 #main {
   font-family: 'Amatic SC';
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   background-color: white;
   padding: 10em 0;
   margin: 0;
@@ -97,15 +92,26 @@ section a:hover {
   background-repeat: none;
   /*background-position: center;*/
 }
-  
-.wrapper {                  
+
+#main div {
   background-color: white;
+  padding: 0.5em;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  /*align-content: center;*/
 }
+  
+/*.wrapper {                  
+  background-color: white;
+}*/
 
 #main h1 {
   font-family: 'Amatic SC', sans-serif;
   font-size: 5em;
   margin: 0;
+  text-align: center;
 }
 
 #main h3 {
@@ -113,6 +119,7 @@ section a:hover {
   font-size: 3em;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 #main div p {
@@ -130,7 +137,7 @@ section a:hover {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 1em;
   font-size: 1em;
   background-color: #1A2061;
@@ -182,11 +189,15 @@ section a:hover {
 #projects .wrapper {
   display: flex;
   flex-flow: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   padding: 1em;
   font-size: 1em;
   /*font-family: 'Amatic SC', sans-serif;*/
+}
+
+#projects .wrapper:nth-child(odd) {
+   background-color: #D3D3D3;
 }
 
 @media all and (max-width: 800px) {
@@ -199,7 +210,7 @@ section a:hover {
   width: 100%;
   text-align: center;
   font-family: 'Amatic SC', sans-serif;
-  font-size: 2em;
+  font-size: 2.75em;
   margin: 0 auto;
   padding: 0;
 }
@@ -209,7 +220,7 @@ section a:hover {
   text-align: center;
   font-weight: 400;
   font-family: 'Amatic SC', sans-serif;
-  font-size: 1em;
+  font-size: 2em;
   margin: 0 auto;
   padding: 0;
 }
@@ -230,9 +241,7 @@ section a:hover {
 
 
 /* ------------------------- Contact ---------------------- */
-
 #contact {
-
 }
 
 #contact div {
@@ -240,7 +249,7 @@ section a:hover {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-   background-color: #1A2061;
+  background-color: #1A2061;
 }
 
 #contact h2 {
@@ -250,25 +259,32 @@ section a:hover {
   font-family: 'Amatic SC', sans-serif;
 }
 
-
 .back-to-top {
   cursor: pointer;
   color: blue;
-  text-decoration: none;
-  
+  text-decoration: none; 
   text-align: right;
   margin: 0 auto;
-
 }
 
 .back-to-top:hover {
   color: #00008B;
 }
 
-
 /* -------------------------- footer -----------------------*/
 footer {
-  
+  background-color: #1A2061;
+}
+
+footer .wrapper {
+   
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Amatic SC', sans-serif;
 }
 
 footer p {
