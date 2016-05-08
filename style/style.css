@@ -62,17 +62,7 @@ header a:hover {
 /* ------------------------ main landing page ----------------------------- */
 section {
   font-family: 'Oswald', sans-serif;
-
- /* border: 1em solid #1A2061;
-  border-top: none;;*/
-  /*border-right: 1em solid #2F479D;
-  border-bottom: 1em solid #2F479D;
-  border-left: 1em solid #2F479D;
-*/
-  /*margin-bottom: 1em;*/
 }
-
-
 
 section a {
   text-decoration: none;
@@ -129,8 +119,6 @@ section a:hover {
 /* ----------------------- About ---------------------- */
 
 #about {
-  margin-top: 1em;
-
 }
 
 #about .wrapper {
@@ -184,6 +172,10 @@ section a:hover {
   background-color: #D3D3D3;
   padding: 1em;
   margin-bottom: 1em;
+}
+
+#projects h2 {
+  color: black;
 }
 
 #projects .wrapper {
@@ -280,11 +272,12 @@ footer .wrapper {
    
 }
 
-h2 {
-  width: 100%;
-  text-align: center;
-  color: white;
+footer h2 {
   font-family: 'Amatic SC', sans-serif;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 
 footer p {
@@ -294,8 +287,28 @@ footer p {
 }
 
 footer a {
+  color: white;
+  font-size: 1em;
   text-decoration: none;
   margin: 0 1em;
+}
+
+footer a:hover {
+  color: #D3D3D3;
+}
+
+#footer-nav {
+  width: 100%;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+#disclaimer {
+  color: gray;
+  font-size: 0.75em;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 
