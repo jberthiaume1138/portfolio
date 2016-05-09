@@ -114,6 +114,8 @@ section a:hover {
 
 #main div p {
   font-size: 2em;
+  margin: 0;
+
 }
 
 /* ----------------------- About ---------------------- */
@@ -161,6 +163,15 @@ section a:hover {
   color: white;
 }
 
+#about a {
+  color: #E3E3E3;
+  text-transform: uppercase;
+}
+
+#about a:hover {
+  color: #D3D3D3;
+}
+
 /* ----------------------- Projects ---------------------- */
 
 #projects {
@@ -195,6 +206,9 @@ section a:hover {
 @media all and (max-width: 800px) {
   #projects .wrapper {
     flex-flow: column;
+  }
+  #logo3js {
+    width: 300px;
   }
 }
 
