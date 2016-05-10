@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 5em;
   font-family: 'Amatic SC';
   margin: 0;
   margin-right: auto;
@@ -99,7 +99,7 @@ section a:hover {
 
 #main h1 {
   font-family: 'Amatic SC', sans-serif;
-  font-size: 5em;
+  font-size: 6.5em;
   margin: 0;
   text-align: center;
 }
