@@ -1,7 +1,7 @@
 // ----- TODO:
 // fix nav bar lock to top
-// git and linkedIN icons
-// effect - name move from center to top on scroll
+
+// name move from center to top on scroll
 // link to PDF paper resume
 // put project descriptions in an external JSON file and 
 // use templates and jQuery clone to build the HTML
@@ -43,3 +43,15 @@ $('a').click(function() {
     });
     return false;
 });
+
+// //smooth scroll and updates the URL
+// var $root = $('html, body');
+// $('a').click(function() {
+//     var href = $.attr(this, 'href');
+//     $root.animate({
+//         scrollTop: $(href).offset().top
+//     }, 500, function () {
+//         window.location.hash = href;
+//     });
+//     return false;
+// });
