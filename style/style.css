@@ -48,7 +48,7 @@ header {
 
 header h1 {
   font-size: 5em;
-  font-family: 'Oswald';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   margin: 0;
   margin-right: auto;
@@ -61,9 +61,9 @@ header div {
 
 header a {
   font-size: 1.75em;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  color: #636363  ;
   text-decoration: none;
   padding: 0 0.5em;
   margin: 0 0.25em;
@@ -75,7 +75,7 @@ header a:hover {
 
 /* ------------------------ main landing page ----------------------------- */
 section {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Marvel', sans-serif;
 }
 
 section a {
@@ -87,8 +87,6 @@ section a:hover {
 }
 
 #main {
-  font-family: 'Oswald';
-  /*font-weight: 700;*/
   background-color: white;
   padding: 10em 0;
   margin: 0;
@@ -110,7 +108,8 @@ section a:hover {
 }
   
 #main h1 {
-  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 6.5em;
   font-weight: 300;
   margin: 0;
@@ -118,8 +117,8 @@ section a:hover {
 }
 
 #main h3 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 3em;
+  font-family: 'Marvel', sans-serif;
+  font-size: 2.5em;
   font-weight: 300;
   padding: 0;
   margin: 0;
@@ -134,6 +133,7 @@ section a:hover {
 }
 
 #main .tech img { 
+  margin-top: 0.5em;
   padding: 0.30em;
   max-width: 100%;
 }
@@ -160,7 +160,7 @@ section a:hover {
 }
 
 #about h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3em;
   font-weight: 400;
   width: 100%;
@@ -179,7 +179,8 @@ section a:hover {
 }*/
 
 #about p {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Marvel', sans-serif;
+  font-size: 1.25em;
   font-weight: 300;
   padding: 0 1em;
   color: white;
@@ -214,7 +215,6 @@ section a:hover {
   justify-content: flex-start;
   padding: 1em;
   font-size: 1em;
-  /*font-family: 'Oswald', sans-serif;*/
 }
 
 #projects .wrapper:nth-child(odd) {
@@ -233,9 +233,8 @@ section a:hover {
 #projects h2 {
   width: 100%;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3.25em;
-  font-weight: 700;
   margin: 0 auto;
   padding: 0;
 }
@@ -243,9 +242,8 @@ section a:hover {
 #projects h3 {
   width: 100%;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2.5em;
-  font-weight: 700;
   margin: 0 auto;
   padding: 0;
 }
@@ -255,7 +253,7 @@ section a:hover {
 }
 
 .project-description p {
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 300;
   width: 100%;
   /*margin: 0 auto;*/
@@ -278,7 +276,7 @@ section a:hover {
   width: 100%;
   text-align: center;
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .back-to-top {
@@ -303,7 +301,7 @@ footer .wrapper {
 }
 
 footer h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3em;
   color: white;
   text-align: center;
