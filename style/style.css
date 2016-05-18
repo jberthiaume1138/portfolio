@@ -85,6 +85,7 @@ section a:hover {
 }
 
 #main {
+  width: 100%;
   background-color: white;
   padding: 10em 0;
   margin: 0;
@@ -110,6 +111,7 @@ section a:hover {
   font-weight: 300;
   margin: 0;
   text-align: center;
+  width: 100%;
 }
 
 #main h3 {
