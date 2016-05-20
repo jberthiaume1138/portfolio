@@ -1,4 +1,4 @@
-*, *:after, *:before {
+stor *, *:after, *:before {
   box-sizing: border-box;
 }
 
@@ -39,8 +39,12 @@ header {
 
 /* -------------------------Small......................... */
 @media all and (max-width: 500px) {
-  header {
+  /*header {
     flex-direction: column;
+  }*/
+
+  header a {
+    font-size: 1em;
   }
 }
 
@@ -114,6 +118,13 @@ section a:hover {
   width: 100%;
 }
 
+@media all and (max-width: 800px) {
+  #main h1 {
+    font-size: 4em; 
+  }
+}
+
+
 #main h3 {
   font-family: 'Marvel', sans-serif;
   font-size: 2.5em;
@@ -146,7 +157,8 @@ section a:hover {
   flex-flow: row;
   justify-content: center;
   align-items: flex-start;
-  padding: 1em;
+/*  padding-top: 1em;
+  padding: 1em 0 0 1em;*/
   font-size: 1em;
   background-color: #1A2061;
 }
@@ -155,6 +167,11 @@ section a:hover {
   #about .wrapper {
     flex-flow: column;
   }
+}
+
+#about-text {
+  max-width: 1000px;
+  padding: 0 1em;
 }
 
 #about h2 {
@@ -166,6 +183,7 @@ section a:hover {
   color: white;
   margin: 0;
   padding: 0;
+  /*padding-left: 0.5em;*/
 }
 
 /*#about img {
@@ -180,7 +198,7 @@ section a:hover {
   font-family: 'Marvel', sans-serif;
   font-size: 1.25em;
   font-weight: 300;
-  padding: 0 1em;
+  /*padding: 0 1em;*/
   color: white;
 }
 
@@ -191,6 +209,12 @@ section a:hover {
 
 #about a:hover {
   color: #D3D3D3;
+}
+
+#about img {
+ /* max-width: 100%;
+  height: auto;*/
+  padding: 1em;
 }
 
 /* ----------------------- Projects ---------------------- */
@@ -230,6 +254,7 @@ section a:hover {
 
 #projects h2 {
   width: 100%;
+  max-width: 1000px;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3.25em;
@@ -248,6 +273,7 @@ section a:hover {
 
 .project-description {
   padding: 1em;
+  max-width: 1000px;
 }
 
 .project-description p {
