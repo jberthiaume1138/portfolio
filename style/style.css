@@ -27,7 +27,7 @@ header {
   align-items: baseline;
   justify-content: flex-end;
   margin-bottom: 1em;
-  /*position: fixed;  ----- need help with this -----  */
+  /*position: fixed;    */
 }
 
 /* ------------------------medium ---------------------*/
@@ -39,9 +39,9 @@ header {
 
 /* -------------------------Small......................... */
 @media all and (max-width: 500px) {
-  /*header {
-    flex-direction: column;
-  }*/
+  header {
+    flex-direction: row;
+  }
 
   header a {
     font-size: 1em;
@@ -225,7 +225,7 @@ section a:hover {
 #projects-header {
   display: flex;
   flex-flow: row wrap;
-  background-color: #D3D3D3;
+  background-color: #E0E0E0;
   padding: 1em;
   margin-bottom: 1em;
 }
@@ -240,7 +240,7 @@ section a:hover {
 }
 
 #projects .wrapper:nth-child(odd) {
-   background-color: #D3D3D3;
+   background-color: #E0E0E0;
 }
 
 @media all and (max-width: 800px) {
@@ -249,6 +249,7 @@ section a:hover {
   }
   #logo3js {
     width: 300px;
+    height: auto;
   }
 }
 
@@ -258,6 +259,7 @@ section a:hover {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3.25em;
+  color: #242424;
   margin: 0 auto;
   padding: 0;
 }
@@ -267,6 +269,7 @@ section a:hover {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2.5em;
+  color: #242424;
   margin: 0 auto;
   padding: 0;
 }
@@ -329,6 +332,7 @@ footer h2 {
   color: white;
   text-align: center;
   width: 100%;
+  padding: 0 1em;
 }
 
 footer p {
@@ -359,7 +363,7 @@ footer a:hover {
   font-size: 0.75em;
   width: 100%;
   margin: 0 auto;
-  padding: 1em;
+  padding-bottom: 0.5em;
 }
 
 
