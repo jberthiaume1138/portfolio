@@ -39,16 +39,9 @@ header {
 
 /* -------------------------Small......................... */
 @media all and (max-width: 500px) {
-<<<<<<< HEAD
-  /*header {
-    flex-direction: column;
-  }*/
-=======
   header {
     flex-direction: row;
   }
->>>>>>> master
-
   header a {
     font-size: 1em;
   }
@@ -122,7 +115,6 @@ section a:hover {
   margin: 0;
   text-align: center;
   width: 100%;
-<<<<<<< HEAD
 }
 
 @media all and (max-width: 800px) {
@@ -130,17 +122,6 @@ section a:hover {
     font-size: 4em; 
   }
 }
-
-=======
-}
-
-@media all and (max-width: 800px) {
-  #main h1 {
-    font-size: 4em; 
-  }
-}
-
->>>>>>> master
 
 #main h3 {
   font-family: 'Marvel', sans-serif;
