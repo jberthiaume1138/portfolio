@@ -148,29 +148,13 @@ section a:hover {
 /* ----------------------- About ---------------------- */
 
 #about {
-}
-
-#about .wrapper {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: flex-start;
-/*  padding-top: 1em;
-  padding: 1em 0 0 1em;*/
-  font-size: 1em;
   background-color: #1A2061;
+  padding-bottom: 1em;
 }
 
-@media all and (max-width: 800px) {
-  #about .wrapper {
-    flex-flow: column;
+#about-image {
+    float: left;
   }
-}
-
-#about-text {
-  max-width: 1000px;
-  padding: 0 1em;
-}
 
 #about h2 {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -181,23 +165,16 @@ section a:hover {
   color: white;
   margin: 0;
   padding: 0;
-  /*padding-left: 0.5em;*/
+  max-width: 1000px;
 }
-
-/*#about img {
-  flex: 0 300px;
-}
-
-#about-text {
-  flex: 1 auto;
-}*/
 
 #about p {
   font-family: 'Marvel', sans-serif;
   font-size: 1.25em;
   font-weight: 300;
-  /*padding: 0 1em;*/
   color: white;
+  max-width: 1000px;
+  margin: 0.75em;
 }
 
 #about a {
@@ -210,10 +187,25 @@ section a:hover {
 }
 
 #about img {
- /* max-width: 100%;
-  height: auto;*/
+  max-width: 100%;
+  height: auto;
   padding: 1em;
+  padding-bottom: 0;
 }
+
+@media all and (max-width: 520px) {
+  #about .wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #about img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+};
 
 /* ----------------------- Projects ---------------------- */
 
