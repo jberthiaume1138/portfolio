@@ -13,12 +13,6 @@ stor *, *:after, *:before {
   height: 100%;
 }
 
-body {
-  margin: 0;
-}*/
-
-
-
 /* ------------------------- header -----------------------------  */
 header {
   z-index: 16;
@@ -152,9 +146,18 @@ section a:hover {
   padding-bottom: 1em;
 }
 
-#about-image {
-    float: left;
-  }
+#about .wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#about img {
+  float: left;
+  max-width: 100%;
+  height: auto;
+  padding: 1em;
+  padding-bottom: 0.5em;
+}
 
 #about h2 {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -173,8 +176,8 @@ section a:hover {
   font-size: 1.25em;
   font-weight: 300;
   color: white;
-  max-width: 1000px;
-  margin: 0.75em;
+  max-width: 1440px;
+  margin: 0.50em;
 }
 
 #about a {
@@ -186,14 +189,7 @@ section a:hover {
   color: #D3D3D3;
 }
 
-#about img {
-  max-width: 100%;
-  height: auto;
-  padding: 1em;
-  padding-bottom: 0;
-}
-
-@media all and (max-width: 520px) {
+@media all and (max-width: 600px) {
   #about .wrapper {
     display: flex;
     flex-flow: column;
@@ -206,6 +202,7 @@ section a:hover {
     padding-right: 10px;
   }
 };
+
 
 /* ----------------------- Projects ---------------------- */
 
@@ -241,6 +238,10 @@ section a:hover {
     width: 300px;
     height: auto;
   }
+}
+
+#projects img {
+  float: left;
 }
 
 #projects h2 {
