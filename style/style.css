@@ -159,7 +159,7 @@ section a:hover {
   padding-bottom: 0.5em;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 650px) {
   #about .wrapper {
     display: flex;
     flex-flow: column;
@@ -213,48 +213,6 @@ section a:hover {
   flex-flow: row wrap;
   background-color: #E0E0E0;
   padding: 1em;
-  margin-bottom: 1em;
-}
-
-#projects .wrapper {
-/*  display: flex;
-  flex-flow: row;
-  align-items: flex-start;
-  justify-content: flex-start; */
-  padding: 1em;
-  font-size: 1em;
-}
-
-#projects .wrapper:nth-child(odd) {
-   background-color: #E0E0E0;
-}
-
-@media all and (max-width: 600px) {
-  #projects .wrapper {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  #projects img {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media all and (max-width: 800px) {
-/*  #projects .wrapper {
-    flex-flow: column;
-  }*/
-  #logo3js {
-    width: 300px;
-    height: auto;
-  }
-}
-
-#projects img {
-  float: left;
 }
 
 #projects h2 {
@@ -268,6 +226,51 @@ section a:hover {
   padding: 0;
 }
 
+#projects .wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  padding: 1em;
+}
+
+#projects .wrapper:nth-child(odd) {
+   background-color: #E0E0E0;
+}
+
+@media all and (max-width: 900px) {
+  #projects .wrapper-3js {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 700px) {
+  #projects .wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #projects img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #logo3js {
+    width: 300px;
+    height: auto;
+  }
+}
+
+#projects img {
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+
 #projects h3 {
   width: 100%;
   text-align: center;
@@ -278,20 +281,10 @@ section a:hover {
   padding: 0;
 }
 
-/*.project-description {
-  padding: 1em;
-  max-width: 1000px;
-}*/
-
-/*.project-description p {
-  font-size: 1.25em;
-  font-weight: 300;
-  width: 100%;
-}*/
-
 #projects p {
   font-size: 1.25em;
   font-weight: 300;
+  margin: 0.5em;
   width: 100%;
 }
 
