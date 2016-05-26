@@ -147,7 +147,7 @@ section a:hover {
 }
 
 #about .wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -157,6 +157,20 @@ section a:hover {
   height: auto;
   padding: 1em;
   padding-bottom: 0.5em;
+}
+
+@media all and (max-width: 600px) {
+  #about .wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #about img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 #about h2 {
@@ -189,21 +203,6 @@ section a:hover {
   color: #D3D3D3;
 }
 
-@media all and (max-width: 600px) {
-  #about .wrapper {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  #about img {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-};
-
-
 /* ----------------------- Projects ---------------------- */
 
 #projects {
@@ -218,12 +217,26 @@ section a:hover {
 }
 
 #projects .wrapper {
-  display: flex;
+/*  display: flex;
   flex-flow: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 1em;
+*/  padding: 1em;
   font-size: 1em;
+}
+
+@media all and (max-width: 600px) {
+  #projects .wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #projects img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 #projects .wrapper:nth-child(odd) {
@@ -265,12 +278,18 @@ section a:hover {
   padding: 0;
 }
 
-.project-description {
+/*.project-description {
   padding: 1em;
   max-width: 1000px;
-}
+}*/
 
-.project-description p {
+/*.project-description p {
+  font-size: 1.25em;
+  font-weight: 300;
+  width: 100%;
+}*/
+
+#projects p {
   font-size: 1.25em;
   font-weight: 300;
   width: 100%;
