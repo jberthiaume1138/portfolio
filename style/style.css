@@ -220,9 +220,13 @@ section a:hover {
 /*  display: flex;
   flex-flow: row;
   align-items: flex-start;
-  justify-content: flex-start;
-*/  padding: 1em;
+  justify-content: flex-start; */
+  padding: 1em;
   font-size: 1em;
+}
+
+#projects .wrapper:nth-child(odd) {
+   background-color: #E0E0E0;
 }
 
 @media all and (max-width: 600px) {
@@ -239,14 +243,10 @@ section a:hover {
   }
 }
 
-#projects .wrapper:nth-child(odd) {
-   background-color: #E0E0E0;
-}
-
 @media all and (max-width: 800px) {
-  #projects .wrapper {
+/*  #projects .wrapper {
     flex-flow: column;
-  }
+  }*/
   #logo3js {
     width: 300px;
     height: auto;
