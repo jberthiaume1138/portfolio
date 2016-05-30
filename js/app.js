@@ -8,7 +8,9 @@
 'use strict'
 
 $(document).ready(function() {
-    $(window).on('scroll',function() {
+    $('#nav-header').hide();
+    
+        $(window).on('scroll',function() {
         // window scrolled event fired
         // determine if position is past bottom of #banner
 
@@ -23,13 +25,16 @@ $(document).ready(function() {
         // var screenHeight = $(window).height();
 
         
-        console.log($(window).height() + ' ' + $(window).scrollTop() + ' ' + bannerBottom);    
+        console.log('Scroll pos: ' + $(window).scrollTop() + ' ' + bannerTop + ' ' + bannerBottom);    
 
         if($(window).scrollTop() > bannerBottom) {
             console.log('past banner');
+            $('#nav-header').show();
         };
     });
 });
+
+
 
 
 

@@ -8,6 +8,10 @@
   border: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 /* ------------------------- header -----------------------------  */
 header {
   z-index: 1;
@@ -43,9 +47,6 @@ header {
   }
 }
 
-#banner {
-
-}
 
 header h1 {
   font-size: 5em;
@@ -72,6 +73,12 @@ header a {
 
 header a:hover {
   color: #CFCFCF;
+}
+
+#nav-header {
+
+  font-size: 0.75em;
+  color: white;
 }
 
 /* ------------------------ main landing page ----------------------------- */
