@@ -9,7 +9,7 @@
 
 $(document).ready(function() {
     $('#nav-header').hide();
-    
+
         $(window).on('scroll',function() {
         // window scrolled event fired
         // determine if position is past bottom of #banner
@@ -30,7 +30,10 @@ $(document).ready(function() {
         if($(window).scrollTop() > bannerBottom) {
             console.log('past banner');
             $('#nav-header').show();
-        };
+        }
+        else
+            $('#nav-header').hide();
+        ;
     });
 });
 
