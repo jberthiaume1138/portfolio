@@ -20,7 +20,7 @@ header {
   top: 0;
   background-color: white;
   height: 50px;
-  background-color: rgba(26, 32, 97, 1);
+  /*background-color: rgba(26, 32, 97, 1);*/
   background-color: #1A2061;
 }
 
@@ -37,7 +37,9 @@ header {
     flex-direction: row;
   }
   header a {
-    font-size: 1em;
+    font-size: 0.75em;
+    position: fixed;
+    bottom: 0;
   }
 }
 

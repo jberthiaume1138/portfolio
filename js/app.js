@@ -1,5 +1,4 @@
 // ----- TODO:
-// fix nav bar lock to top
 
 // name move from center to top on scroll
 // link to PDF paper resume
@@ -9,15 +8,30 @@
 'use strict'
 
 $(document).ready(function() {
-	// $(window).resize(function() {
-	// 	var windowHeight = $(document).height();
-	// 	$('#main').css({'height': windowHeight});
-	// });
+    $(window).on('scroll',function() {
+        // window scrolled event fired
+        // determine if position is past bottom of #banner
+
+        var verticalPosition = window.pageYOffset;
+
+        var bannerHeight = $('#banner').height();   // this is fixed in CSS
+
+        var bannerTop = $('#banner').offset().top;
+
+        var bannerBottom = bannerTop + bannerHeight;
+
+        // var screenHeight = $(window).height();
+
+        
+        console.log($(window).height() + ' ' + $(window).scrollTop() + ' ' + bannerBottom);    
+
+        if($(window).scrollTop() > bannerBottom) {
+            console.log('past banner');
+        };
+    });
 });
 
-$('#banner').on('scroll',function(){
-    console.log('scrolled');
-});
+
 
 // //smooth scroll
 // $('a').click(function(){
