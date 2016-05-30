@@ -1,4 +1,4 @@
-stor *, *:after, *:before {
+*, *:after, *:before {
   box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@ stor *, *:after, *:before {
 
 /*html,body, .full-screen {
   height: 100%;
-}
+} */
 
 /* ------------------------- header -----------------------------  */
 header {
@@ -25,7 +25,7 @@ header {
   top: 0;
   background-color: white;
   height: 50px;
-  background-color: rgba(224, 224, 224, 0.8);
+  background-color: rgba(224, 224, 224, 0.7);
 }
 
 /* ------------------------medium ---------------------*/
@@ -71,6 +71,10 @@ header a {
 header a:hover {
   color: #424242;
 }
+
+/*#full-screen {
+  height: 100vh;
+}*/
 
 /* ------------------------ main landing page ----------------------------- */
 section {
