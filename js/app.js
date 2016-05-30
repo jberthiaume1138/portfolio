@@ -15,6 +15,10 @@ $(document).ready(function() {
 	// });
 });
 
+$('#banner').on('scroll',function(){
+    console.log('scrolled');
+});
+
 // //smooth scroll
 // $('a').click(function(){
 //     $('html, body').animate({
