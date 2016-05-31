@@ -22,8 +22,6 @@ $(document).ready(function() {
 
         var bannerBottom = bannerTop + bannerHeight;
 
-        // var screenHeight = $(window).height();
-
         
         console.log('Scroll pos: ' + $(window).scrollTop() + ' ' + bannerTop + ' ' + bannerBottom);    
 
@@ -31,9 +29,9 @@ $(document).ready(function() {
             console.log('past banner');
             $('#nav-header').show();
         }
-        else
+        else {
             $('#nav-header').hide();
-        ;
+        }
     });
 });
 
@@ -63,7 +61,7 @@ var $root = $('html, body');
 $('a').click(function() {
     var href = $.attr(this, 'href');
     $root.animate({
-        scrollTop: $(href).offset().top
+        scrollTop: $(href).offset().top - 50
     }, 500, function () {
         window.location.hash = href;
     });
