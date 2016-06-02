@@ -36,16 +36,18 @@ header {
 }
 
 /* -------------------------Small......................... */
-@media all and (max-width: 500px) {
-  header {
-    flex-direction: row;
+@media all and (max-width: 650px) {
+  #nav-header {
+    width: 100%;
+    text-align: center;
   }
-  header a {
-    font-size: 0.75em;
-    position: fixed;
-    bottom: 0;
+
+  #links-header {
+    display: none;
   }
 }
+
+
 
 header h1 {
   font-size: 5em;
@@ -387,4 +389,12 @@ footer a:hover {
   padding-bottom: 0.5em;
 }
 
+@media all and (max-width: 650px) {
+  #footer-nav {
+    position: fixed;
+    bottom: 0;
+    background-color: #1A2061;
+    z-index: 2;
+  }
+}
 

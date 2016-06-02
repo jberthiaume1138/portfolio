@@ -1,10 +1,3 @@
-// ----- TODO:
-
-// name move from center to top on scroll
-// link to PDF paper resume
-// put project descriptions in an external JSON file and 
-// use templates and jQuery clone to build the HTML
-
 'use strict'
 
 $(document).ready(function() {
@@ -23,10 +16,9 @@ $(document).ready(function() {
         var bannerBottom = bannerTop + bannerHeight;
 
         
-        console.log('Scroll pos: ' + $(window).scrollTop() + ' ' + bannerTop + ' ' + bannerBottom);    
+        // console.log('Scroll pos: ' + $(window).scrollTop() + ' ' + bannerTop + ' ' + bannerBottom);    
 
         if($(window).scrollTop() > bannerBottom) {
-            console.log('past banner');
             $('#nav-header').show();
         }
         else {
