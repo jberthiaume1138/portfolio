@@ -35,16 +35,17 @@ header {
 }
 
 /* -------------------------Small......................... */
-@media all and (max-width: 500px) {
-  header {
-    flex-direction: row;
+@media all and (max-width: 650px) {
+  #nav-header {
+    width: 100%;
+    text-align: center;
   }
-  header a {
-    font-size: 0.75em;
-    position: fixed;
-    bottom: 0;
+
+  #links-header {
+    display: none;
   }
 }
+
 
 
 header h1 {
@@ -75,8 +76,11 @@ header a:hover {
 }
 
 #nav-header {
-
-  font-size: 0.75em;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  margin-right: auto;
+  font-size: 1em;
   color: white;
 }
 
@@ -99,21 +103,22 @@ section a:hover {
   background-image: url("../images/gridfinal.gif");
   background-repeat: none;
   margin: 0;
-  margin-top: 50px;   /*to push down content for fixed header */
+  /*margin-top: 50px;   to push down content for fixed header */
   display: flex;
   flex-flow: column;
-  justify-content: center; /* perfect vertical centering */
+  justify-content: space-around; /* vertical centering */
 
 }
 
-#main div {
-  background-color: white;
+#banner {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 0.5em;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
 }
   
 #main h1 {
@@ -383,4 +388,12 @@ footer a:hover {
   padding-bottom: 0.5em;
 }
 
+@media all and (max-width: 650px) {
+  #footer-nav {
+    position: fixed;
+    bottom: 0;
+    background-color: #1A2061;
+    z-index: 2;
+  }
+}
 
