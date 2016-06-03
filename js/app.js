@@ -20,11 +20,7 @@ $(document).ready(function() {
     });
 });
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
-// //smooth scroll
+//smooth scroll
 // $('a').click(function(){
 //     $('html, body').animate({
 //         scrollTop: $( $.attr(this, 'href') ).offset().top
