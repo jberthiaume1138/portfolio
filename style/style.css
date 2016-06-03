@@ -345,10 +345,6 @@ footer {
   background-color: #1A2061;
 }
 
-footer .wrapper {
-   
-}
-
 #footer-social {
   padding: 0.75em;
 }
@@ -373,7 +369,6 @@ footer a:hover {
 #footer-nav {
   width: 100%;
   margin: 1em auto;
-  /*padding: 1em;*/
 }
 
 #disclaimer {
