@@ -9,7 +9,7 @@ $(document).ready(function() {
         var bannerHeight = $('#banner').height();   // this is fixed in CSS
         var bannerTop = $('#banner').offset().top;
 
-        var bannerBottom = bannerTop + bannerHeight;      
+        var bannerBottom = bannerTop + bannerHeight;
 
         if($(window).scrollTop() > bannerBottom) {
             $('#nav-header').show();
@@ -18,7 +18,17 @@ $(document).ready(function() {
             $('#nav-header').hide();
         }
     });
+    
+    cheeseburger();
 });
+
+var cheeseburger = function() {
+    var n = 'joenyc23';
+    var d = 'gmail';
+    var t = '.com';
+    var l = 'mailto:' + n + '@' + d + t;
+    $('.hide-email').attr('href',l);
+};
 
 //smooth scroll
 // $('a').click(function(){
