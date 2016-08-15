@@ -195,6 +195,18 @@ section a:hover {
   max-width: 1440px;
 }
 
+#about h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
 #about p {
   font-family: 'Marvel', sans-serif;
   font-size: 1.25em;
