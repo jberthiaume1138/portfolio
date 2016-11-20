@@ -96,7 +96,7 @@ section a:hover {
   /*margin-top: 50px;   to push down content for fixed header */
   display: flex;
   flex-flow: column;
-  justify-content: space-around; /* vertical centering */
+  justify-content: center; /* vertical centering */
 
 }
 
@@ -109,6 +109,31 @@ section a:hover {
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
+
+  margin-bottom: 4em;
+}
+
+.mainDiv {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.5em;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#detail {
+    background-color: #1A2061;
+    color: white;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+#detail p {
+    margin: 0;
+    padding: 0
 }
 
 #main h1 {
