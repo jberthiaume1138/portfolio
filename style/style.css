@@ -8,6 +8,11 @@
   border: 0;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 /* ------------------------- header -----------------------------  */
 header {
   z-index: 1;
@@ -118,13 +123,8 @@ section a:hover {
 #detail {
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    font-size: 1.5em;
+    font-size: 1.75em;
     padding: 1em;
-}
-
-#detail p {
-    margin: 0;
-    padding: 0;
 }
 
 @media all and (max-width: 650px) {
@@ -406,6 +406,10 @@ footer a:hover {
 #footer-nav {
   width: 100%;
   margin: 1em auto;
+}
+
+#footer-nav p {
+    padding: 1em;
 }
 
 #disclaimer {
