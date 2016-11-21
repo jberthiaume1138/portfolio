@@ -93,24 +93,11 @@ section a:hover {
   background-image: url("../images/gridfinal.gif");
   background-repeat: none;
   margin: 0;
-  /*margin-top: 50px;   to push down content for fixed header */
+  margin-top: 50px;   /* to push down content for fixed header */
   display: flex;
   flex-flow: column;
   justify-content: center; /* vertical centering */
 
-}
-
-#banner {
-  width: 80%;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 0.5em;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
-
-  margin-bottom: 4em;
 }
 
 .mainDiv {
@@ -124,16 +111,33 @@ section a:hover {
     align-items: center;
 }
 
+#banner {
+  margin-bottom: 2em;
+}
+
 #detail {
-    background-color: #1A2061;
-    color: white;
-    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 1.5em;
     padding: 1em;
 }
 
 #detail p {
     margin: 0;
-    padding: 0
+    padding: 0;
+}
+
+@media all and (max-width: 650px) {
+    #main {
+        justify-content: center;
+        margin-top: 0;
+    }
+    #detail {
+        display: none;
+    }
+    #banner {
+        margin: 0 auto;
+    }
 }
 
 #main h1 {
