@@ -102,7 +102,6 @@ section a:hover {
   display: flex;
   flex-flow: column;
   justify-content: center; /* vertical centering */
-
 }
 
 .mainDiv {
@@ -117,10 +116,12 @@ section a:hover {
 }
 
 #banner {
-  margin-bottom: 2em;
+    margin-top: -50px;
+  margin-bottom: 1em;
 }
 
 #detail {
+    margin-top: 1em;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
     font-size: 1.75em;
@@ -335,7 +336,7 @@ section a:hover {
 #projects p {
   font-size: 1.25em;
   font-weight: 300;
-  /*margin: 0.5em;*/
+  margin: 0.5em 0;
   width: 100%;
 }
 
