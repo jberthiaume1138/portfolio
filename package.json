@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "2.0.0",
+  "description": "Portfolio of Joseph Berthiaume, Full Stack Software Engineer and Web Developer",
+  "main": "../webpack.config.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base public/dist/ --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jberthiaume1138/portfolio.git"
+  },
+  "author": "JAB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jberthiaume1138/portfolio/issues"
+  },
+  "homepage": "https://github.com/jberthiaume1138/portfolio#readme",
+  "dependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
