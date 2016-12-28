@@ -5,7 +5,7 @@ var ReactDOM = require('react-dom');
 // myDiv.innerHTML = "Turkey and Gravy";
 
 // // ES6 version -- this doesn't seem to work at all
-// class MyComponent extends React.createClass {
+// class MyComponent extends React.Component {
 //     render() {
 //         return <div>Where did it go?!?!?!</div>
 //     }
