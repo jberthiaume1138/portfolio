@@ -1,0 +1,435 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------- header -----------------------------  */
+header {
+  z-index: 1;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  height: 50px;
+  background-color: #1A2061;
+}
+
+/* ------------------------medium ---------------------*/
+@media all and (max-width: 800px) {
+  header {
+    justify-content: space-around;
+  }
+}
+
+/* -------------------------Small......................... */
+@media all and (max-width: 650px) {
+  #nav-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  #links-header {
+    display: none;  /* fixed footer nav displays at 650px */
+  }
+}
+
+header h1 {
+  font-size: 5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  margin-right: auto;
+  padding-left: 1em;
+}
+
+header a {
+  font-size: 1.75em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  color: white;  ;
+  text-decoration: none;
+  padding: 0 0.5em;
+  margin: 0 0.25em;
+}
+
+header a:hover {
+  color: #CFCFCF;
+}
+
+#nav-header {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  margin-right: auto;
+  font-size: 1em;
+  color: white;
+}
+
+/* ------------------------ main landing page ----------------------------- */
+section {
+  font-family: 'Marvel', sans-serif;
+}
+
+section a {
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #00008B;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/gridfinal.gif");
+  background-repeat: none;
+  margin: 0;
+  margin-top: 50px;   /* to push down content for fixed header */
+  display: flex;
+  flex-flow: column;
+  justify-content: center; /* vertical centering */
+}
+
+.mainDiv {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.5em;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#banner {
+    margin-top: -50px;
+  margin-bottom: 1em;
+}
+
+#detail {
+    margin-top: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 1.75em;
+    padding: 1em;
+}
+
+@media all and (max-width: 650px) {
+    #main {
+        justify-content: center;
+        margin-top: 0;
+    }
+    #detail {
+        display: none;
+    }
+    #banner {
+        margin: 0 auto;
+    }
+}
+
+#main h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 6.5em;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+@media all and (max-width: 800px) {
+  #main h1 {
+    font-size: 4em;
+  }
+}
+
+#main h3 {
+  font-family: 'Marvel', sans-serif;
+  font-size: 2.5em;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#main .tech {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+}
+
+#main .tech img {
+  margin-top: 0.5em;
+  padding: 0.30em;
+  max-width: 100%;
+}
+
+/* ----------------------- About ---------------------- */
+
+#about {
+  background-color: #1A2061;
+  padding-bottom: 1em;
+}
+
+#about .wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#about img {
+  float: left;
+  max-width: 100%;
+  height: auto;
+  padding: 1em;
+  padding-bottom: 0.5em;
+}
+
+@media all and (max-width: 650px) {
+  #about .wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #about img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+#about h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+}
+
+#about h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
+#about p {
+  font-family: 'Marvel', sans-serif;
+  font-size: 1.25em;
+  font-weight: 300;
+  color: white;
+  max-width: 1440px;
+  margin: 0.50em;
+}
+
+#about a {
+  color: #E3E3E3;
+  text-transform: uppercase;
+}
+
+#about a:hover {
+  color: #D3D3D3;
+}
+
+/* ----------------------- Projects ---------------------- */
+
+#projects {
+}
+
+#projects-header {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #E0E0E0;
+  padding: 1em;
+}
+
+#projects h2 {
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3.25em;
+  color: #242424;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#projects .wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+#projects .wrapper:nth-child(odd) {
+   background-color: #E0E0E0;
+}
+
+@media all and (max-width: 900px) {
+  #projects .wrapper-3js {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 700px) {
+  #projects .wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #projects img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #logo3js {
+    width: 300px;
+    height: auto;
+  }
+}
+
+#projects img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#projects h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.5em;
+  color: #242424;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#projects p {
+  font-size: 1.25em;
+  font-weight: 300;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+
+#projects aside {
+    font-size: 1.25em;
+}
+
+
+
+/* ------------------------- Contact ---------------------- */
+#contact {
+}
+
+#contact div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A2061;
+}
+
+#contact h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.back-to-top {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+  text-align: right;
+  margin: 0 auto;
+}
+
+.back-to-top:hover {
+  color: #00008B;
+}
+
+/* -------------------------- footer -----------------------*/
+footer {
+  background-color: #1A2061;
+}
+
+#footer-social {
+  padding: 0.75em;
+}
+
+footer p {
+  font-size: 0.75em;
+  color: gray;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+footer a:hover {
+  color: #D3D3D3;
+}
+
+#footer-nav {
+  width: 100%;
+  margin: 1em auto;
+}
+
+#footer-nav p {
+    padding: 1em;
+}
+
+#disclaimer {
+  color: gray;
+  font-size: 0.75em;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+@media all and (max-width: 650px) {
+  #footer-nav {
+    position: fixed;
+    bottom: 0;
+    background-color: #1A2061;
+    z-index: 9999;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+}

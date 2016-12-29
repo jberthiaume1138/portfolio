@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="author" content="Joseph Berthiaume">
+	<meta name="description" content="I am Joseph Berthiaume, a full stack software engineer and web developer based in New York City.">
+	<meta name="keywords" content="HTML,CSS,JavaScript,JSON,AJAX,Node,Fullstack,FrontEnd,FEWD,engineer">
+	<meta name="" content="">
+	<title>Joseph Berthiaume - Web Development</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Marvel:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style/normalize.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-81544100-1', 'auto');
+  		ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+
+	<div id="app"></div>
+	<script src="js/client.min.js" type="text/javascript"></script>
+
+	<!-- <header id="header">
+		<div id="nav-header">
+			<a href="#main">Joseph Berthiaume</a>
+		</div>
+		<div id="links-header">
+			<a id="linkAbout" href="#about">About</a>
+			<a id="linkProjects" href="#projects">Projects</a>
+			<a id="linkContact" href="#contact">Contact</a>
+		</div>
+	</header>
+
+	<section id="main">
+		<div id="banner" class="mainDiv">
+			<h1>Joseph Berthiaume</h1>
+			<h3>Engineering For The Modern Web</h3>
+			<div class="tech">
+				<img src="images/html5-logo.png" height="64" alt="html5 logo" title="html5">
+				<img src="images/css3-logo.png" height="64" alt="css3 logo">
+				<img src="images/js-logo.png" height="64" alt="javascript logo">
+				<p></p>
+				<img src="images/nodejs-logo.png" height="64" alt="nodejs logo">
+			</div>
+		</div>
+		<div id="detail" class="mainDiv">
+			<p>I am a <strong>Full Stack Engineer</strong>, working on the front-end with HTML5, CSS3, and JavaScript to create clean, responsive applcations that work seamlessly across devices. On the back-end, I develop applications and RESTful API's with Node.js, Express, and MongoDB.</p>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="wrapper">
+			<img id="about-image" src="images/tulips-opt.jpg" width="300" height="300" alt="Penny the Golden Retriever">
+			<h2>About Me</h2>
+			<p>I design and develop full stack web applications using the latest technologies and tools.</p>
+			<p>When I am working on the front-end with HTML5, CSS3, and JavaScript, my goal is to create clean, semantic and responsive sites that work seamlessly on any device, in any browser. Additionally, I have experience with Adobe products like Photoshop, Illustrator and Lightroom and can implement and mock up new designs for review and collaboration.</p>
+			<p>I am also a back-end engineer. I enjoy building RESTful API's with Node.js, Express, and MongoDB, while also coding front-end applications to consume the data. I have experience with test-driven-development as well, using tools like Mocha and Chai, and simultaneously integrating unit tests as part of deployment with Travis CI.</p>
+			<p>I am always on the look out for the next great tool, library or framework to add to a growing arsenal that includes:  Gulp, SASS, SQL, Handlebars.js, jQuery, Mocha, Chai, Git, Github, Moment.js, Bootstrap... and many, many more.</p>
+			<p>Technology is and has always been my passion. I have previously earned an Electrical Enginering degree and have spent over 15 years in network and systems engineering. Along the way I've been involved with everything from desktop provisioning to network architecture, security and business continuity before pursuing education in the most cutting edge software engineering methods.</p>
+			<p>I live in NYC with my beautiful wife, our baby boy, dozens of fish and corals, and my loyal coding assistant Penny the Golden Retriever.</p>
+			<p>Please <a href="#contact">contact</a> to me today to inquire about hiring me for a job, big or small, or just talk about the latest in technology.</p>
+		</div>
+	</section>
+
+	<section id="projects">
+		<div id="projects-header">
+			<h2>Sample Projects</h2>
+		</div>
+		<div class="wrapper">
+			<a href="https://radiant-peak-89382.herokuapp.com" target="_blank"><img src="images/comic-collector-api-opt.png" alt="comic-collector-api-tree" width="300"></a>
+			<div class="project-description">
+				<h3>Comic Collector</h3>
+				<p>Comic Collector is an ongoing project, currently in version 0.2. Phase 1 involved developing the initial version of a data model and API using Node, Express and MongoDB as well as covering every API endpoint with a full series of automated unit tests.</p>
+				<p>The idea is simple - it can be difficult to keep track of single issues of a comic book series, and that difficulty increases exponentially with each additional series you follow. Comic Collector is meant to change that.</p>
+				<p>In its most basic form, a user can keep a collection of all the comic book series they read regularly. The stored data includes basic fields like the series' title, start year and most importantly, the official Marvel ID number. The user will be able to see the cover images for each of the issues in each series, with the most recent on top. The user's collection will also track which issues they already own and/or which they are missing based on availability at any given date.</p>
+				<p>Discovery is also key, and Comic Collector helps with that too. By simply entering a title name in the search field, the official Marvel public API is queried. Once a user finds the series they want to read, a single click adds it to their collection and issue tracking begins.</p>
+				<p>Phase 2, in development now, is the creation of a robust front end to consume this API and provide a robust user experience. </p>
+				<p>View the code repository on <a href="https://github.com/jberthiaume1138/comic-collector" target="_blank">Github</a></p>
+				<p>Tech: HTML5 CSS3 Javascript Node.js Express MongoDB Mongoose Handlebars Momentjs RESTful-API Git TravisCI Heroku</p>
+			</div>
+		</div>
+		<div class="wrapper">
+			<a href="https://vast-sands-47376.herokuapp.com/" target="_blank"><img src="images/scoreboard-v-opt.jpg" alt="scoreboard-vertical" width="300"></a>
+			<div class="project-description">
+				<h3>Scoreboard</h3>
+				<p>This is an HTML5 scoreboard which displays data from a provided JSON file. The scoreboard is rendered client side, using <a href="http://handlebarsjs.com/" target="_blank">HandlebarsJS</a> for templating and <a href="http://kenwheeler.github.io/slick/" target="_blank">Slick</a>, a jQuery carousel. The scoreboard is fully responsive, adapting appropriately to window size.</p>
+				<p>View the code repository on <a href="https://github.com/jberthiaume1138/scoreboard" target="_blank">Github</a></p>
+				<p>Tech: HTML5 CSS3 Javascript Node.js Express MongoDB Mongoose Handlebars Momentjs RESTful-API Git TravisCI Heroku</p>
+			</div>
+		</div>
+		<div class="wrapper">
+			<a href="https://frozen-beach-26945.herokuapp.com/" target="blank"><img src="images/zombie.jpg" width="300" height="253" alt="zombie-list-screenshot"></a>
+			<div class="project-description">
+				<h3>Zombie Readiness Reminder</h3>
+				<p>The Zombie Readiness Reminder is a Node.js / Express / MongoDB application to help you prepare for the coming zombie apocalypse.</p>
+				<p>Built on Node.js, data for each task is stored in a MongoDB database modeled with Mongoose.js and a RESTful API is provided with an Express application. The front end is built using HTML5, CSS3, and jQuery with Handlebars.js providing the templates on the client side. It is deployed on Heroku with continuous integration via Travis CI and a full set of tests through the Mocha test runner and Chai assertion library.</p>
+				<p>View the code repository on <a href="https://github.com/jberthiaume1138/zombie-readiness-reminder" target="blank">GitHub</a></p>
+				<p>Tech: HTML5 CSS3 jQuery Node.js Expressjs MongoDB Mongoose Handlebars Momentjs RESTful API Javascript Git </p>
+			</div>
+		</div>
+		<div class="wrapper">
+			<a href="http://jberthiaume1138.github.io/quiz" target="blank"><img src="images/quiz.gif" width="300" alt="quiz-screenshot"></a>
+			<div class="project-description">
+				<h3>Comic Book Quiz</h3>
+				<p>Test your comic book knowledge with this triva quiz. This applcation is responsively built with modern HTML5 and CSS3 technology and all of the functionality is pure Javascript.</p>
+				<p>View the code repository on <a href="https://github.com/jberthiaume1138/quiz" target="blank">GitHub</a></p>
+				<p>Tech: HTML5 CSS3 Javascript OOP Git</p>
+			</div>
+		</div>
+		<div class="wrapper">
+			<a href="http://jberthiaume1138.github.io/fish-finder" target="blank"><img src="images/fishfinder.jpg" width="300" alt="fishfinder-screenshot"></a>
+			<div class="project-description">
+				<h3>Fish Finder</h3>
+				<p>This app is a sort of single page Google Image / Video Search and Wikipedia mash-up. It uses deferred promises to execute 3 asynchronus AJAX calls against 3 external APIs - Flickr, YouTube and Wikipedia. The data is returned and displayed using a Masonry gallery below some introductory Wikipedia data about the desired reef fish.</p>
+				<p>View the code repository on <a href="https://github.com/jberthiaume1138/fish-finder" target="blank">GitHub</a></p>
+				<p>Tech: HTML5 CSS3 Javascript jQuery Git AJAX JSON</p>
+			</div>
+		</div>
+		<div class="wrapper wrapper-3js">
+			<img id="logo3js" src="images/3jslogo.png" height=175 alt="3js logo">
+			<div class="project-description">
+				<h3>Graphic Design</h3>
+				<p>Logo and graphic design for an automobile customization, performance and repair shop in Williamsburg, Brooklyn.</p>
+				<p>Tech: Adobe Illustrator Photoshop Fireworks</p>
+			</div>
+		</div>
+		<div class="wrapper">
+			<a href="http://www.anandtech.com/show/2970/palm-webos-pre-and-pixi-where-are-we-now-" target="blank"><img src="images/pixiandpre.jpg" height="300" width="300" alt="anandtech article picture"></a>
+			<div class="project-description">
+				<h3>Writing - Anandtech</h3>
+				<p>A review of the Palm Pixi smartphone and the WebOS operating system for Anandtech.com in March 2010.</p>
+				<aside><em>"Palm chose a radically different form factor from its first WebOS device. With Pixi, Palm has brought back memories of the Treos and Centros of years past. In eschewing the slider mechanism of the Pre, Palm has eliminated what was, without a doubt, Pre’s biggest shortcoming. Gone is the grinding plastic-on-plastic mechanics used to expose the keyboard. Oreo-twist effect? Forget it. There are no physical bits here to ruin the experience or distract from the excellence that is WebOS, just a monolithic chunk of plastic that feels very, well, iPhone like. It’s solid-feeling, as if you could drop it and it wouldn’t shatter into 300 pieces (which is exactly the feeling you get when holding the Pre)."</em></aside>
+				<p><a href="http://www.anandtech.com/show/2970/palm-webos-pre-and-pixi-where-are-we-now-" target="blank">http://www.anandtech.com/show/2970/palm-webos-pre-and-pixi-where-are-we-now-</a></p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="wrapper">
+			<div id="footer-social">
+				<p id="contact">
+					<a class="hide-email" href="#"><img src="images/email-icon.gif" height="50" width="50"alt="email-icon"></a>
+					<a href="https://github.com/jberthiaume1138" target="blank"><img src="images/github-mark-100.gif" height="50" width="50" alt="github-mark" ></a>
+					<a href="https://www.linkedin.com/in/joe-berthiaume-42b2924" target="blank"><img src="images/in-2c-101px-tm.png" height="50" width="50" alt="linkedin"></a>
+				</p>
+			</div>
+
+			<div id="footer-nav">
+				<p>
+					<a href="#main">Home</a>
+					<a href="#about">About</a>
+					<a href="#projects">Projects</a>
+					<a href="#contact">Contact</a>
+				</p>
+			</div>
+			<div id="disclaimer">
+				<p>Copyright 2016 Joseph Berthiaume</p>
+			</div>
+		</div>
+	</footer> -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+</body>
+</html>
